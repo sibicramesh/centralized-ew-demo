@@ -1,1 +1,1 @@
-Centralized East-West Demo
+Terraform Cloud NGFW AWS Centralized East-West Demo
