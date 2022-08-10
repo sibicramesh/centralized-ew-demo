@@ -9,8 +9,8 @@ module "aws" {
 module "cloudngfwaws" {
   source = "./modules/cloudngfwaws"
 
-  name              = "${var.name_prefix}-firewall-19"
-  rulestack         = "${var.name_prefix}-rulestack-19"
+  name              = "${var.name_prefix}-firewall-26"
+  rulestack         = "${var.name_prefix}-rulestack-26"
   vpc_id            = module.aws.firewall_vpc_id
   subnet            = module.aws.firewall_subnet_id
   availability_zone = var.availability_zone
